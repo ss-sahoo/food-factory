@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+#logo{
+    margin: 10px 30px;
+}
+#logo img{
+    height: 60px;
+    margin: 2px 5px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+    color: rgb(219, 198, 79);
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(4, 7, 8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(212, 233, 245);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 59px 823px 20px 39px; 
+    height: 470px;
+    justify-content:left ;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background:url('../img/sam-moqadam--XeACbKDkj4-unsplash.jpg');
+    background-size: cover;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#home h1{
+    color: rgb(20, 19, 20);
+    text-align:center;
+    font-size: 2.5rem;
+    margin: 13px;
+    font-family:'Limelight', cursive;
+}
+#home p{
+    color:#b38d54fa;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: tomato;
+    color: black;
+    margin: 34px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#service{
+    margin: 0px;
+}
+#service .grid{
+    display: flex;
+}
+#service .box{
+    
+    border: black;
+    padding: 29px;
+    margin: 5px 7px;
+    border-radius: 23px;
+    background-color:  #afa549a6;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#service .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+
+}
+#service .box:hover{
+    background-color: rgb(188, 204, 128);
+    padding: 31px;
+}
+.h2-primary{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+#about{
+    position: relative;
+}
+#about::before{
+    content: "";
+    position: absolute;
+    background: url('../img/brooke-lark-wMzx2nBdeng-unsplash.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1.2;
+}
+#about .sec{
+    display: flex;
+}
+   
+#about .client img{
+    height: 152px;
+    padding: 16px;
+    margin: auto;
+}
+.h3-secondary{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    padding: 0px;
+    margin: 20px;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('../img/mahbub-majid-C2uAWfPYTao-unsplash.jpg');
+    opacity: 0.8;
+}
+#contact .sec{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+#contact .us input,
+#contact .us textarea{
+    width: 100%;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+#contact .us form{
+    width: 40%;
+}
+#contact .bt{
+    padding: 11px 222px;
+    margin: 7px;
+    border: chocolate;
+    background-color: rgb(134, 124, 98);
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+footer{
+    background: black;
+    color: blanchedalmond;
+    padding: 9px 20px;
+}
+.center{
+    text-align: center;
+}
+
+
+
+
+
+
+
